@@ -70,6 +70,8 @@ TEMPLATES = [
     },
 ]
 
+ALLOWED_HOSTS=['https://devroboticssociety.pythonanywhere.com/']
+
 WSGI_APPLICATION = 'rs_backend.wsgi.application'
 
 
