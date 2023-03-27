@@ -77,12 +77,12 @@ ALLOWED_HOSTS = ['devroboticssociety.pythonanywhere.com', '127.0.0.1']
 
 WSGI_APPLICATION = 'rs_backend.wsgi.application'
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1",
-    "https://robotics-society-frontend.vercel.app/"
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "http://127.0.0.1",
+#     "https://robotics-society-frontend.vercel.app/"
     
-]
+# ]
 
 CORS_ALLOW_ALL_ORIGINS: True
 
